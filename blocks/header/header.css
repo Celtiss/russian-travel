@@ -1,0 +1,24 @@
+.header {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: #2A2C2F;
+    padding: 0 48px 0;
+}
+
+
+@media screen and (max-width:984px) {
+    .header {
+        width: 100%;
+        padding: 0 24px 0;
+    }
+}
+
+@media screen and (max-width:568px) {
+    .header {
+        width: 100%;
+        padding: 0 16px 0;
+    }
+}

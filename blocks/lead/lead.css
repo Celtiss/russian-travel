@@ -1,0 +1,9 @@
+.lead {
+    width: 100%;
+}
+
+@media screen and (max-width:984px) {
+    .lead {
+        padding: 0;
+    }
+}

@@ -1,0 +1,6 @@
+.intro__container {
+    max-width: 984px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
