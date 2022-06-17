@@ -1,8 +1,12 @@
 .place__website {
+    grid-area: website;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-self: end;
+    max-width: 456px;
+    min-width: 200px;
+    width: 100%;
 }
 
 @media screen and (max-width:1140px) {
@@ -20,6 +24,7 @@
 @media screen and (max-width:568px) {
     .place__website {
         width: 100%;
-        max-width: 320px;
+        max-width: 288px;
+        margin: 0 16px;
     }
 }
