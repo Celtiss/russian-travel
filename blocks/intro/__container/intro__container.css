@@ -1,6 +1,30 @@
 .intro__container {
+    width: 690px;
+    min-width: 288px;
     max-width: 984px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
+}
+@media screen and (max-width:1140px) {
+    .intro__container {
+        max-width: 928px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:984px) {
+    .intro__container {
+        max-width: 720px;
+        width: 100%;
+        min-width:  500px;
+    }
+}
+
+@media screen and (max-width:568px) {
+    .intro__container {
+        width: 100%;
+        min-width: 288px;
+    }
 }
